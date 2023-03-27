@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    
+
     <!-- CSS do Bootstrap e CSS Local -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -30,6 +30,27 @@
 </head>
 <body>
     <script src="js/scripts.js"></script>
-    <h1>CS:GO</h1>
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a href="#" class="navbar-brand">
+                    <img id="logo" src="img/csgologo.svg" alt="Logo CSGO"> CS:GO
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a href="nav-item nav-link" id="home-menu">Home</a>
+                        <a href="nav-item nav-link" id="about-menu">O CS:GO</a>
+                        <a href="nav-item nav-link" id="requeriments-menu">Requisitos Minimos</a>
+                        <a href="nav-item nav-link" id="players-menu">Jogadores</a>
+                        <a href="nav-item nav-link" id="tutorials-menu">Tutoriais</a>
+                        <a href="nav-item nav-link" id="contact-menu">Contato</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
 </body>
 </html>
