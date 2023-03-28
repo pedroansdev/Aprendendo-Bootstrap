@@ -40,4 +40,4 @@ _Obs.: Algumas classes e IDs são do próprio Bootstrap, e estou estilizando de 
 ##
     
 _Acesse e teste o site através deste link:
-_
+https://pedroansdev.github.io/Aprendendo-Bootstrap/_
